@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.brand_page{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 80px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    li{
+      padding: 0px 10px;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+}
+button{
+  background-color: #D01C28;
+  color:#fff;
+  border: none;
+  height: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.banner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  .banner_text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    h1{
+      font-size: 98px;
+      line-height: 102px;
+      font-weight: bold;
+      margin: 0;
+    }
+    p{
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+  .banner_image{
+    width: 50%;
+  }
+  .banner_button{
+    display: flex;
+    padding-top: 30px;
+    gap:30px;
+    .secondary{
+      background-color: #fff;
+      color:black;
+      border:1px solid black;
+    }
+  
+  }
+}
+.banner_logo{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  .banner_logo_text{
+    font-size: 16px;
+  }
+  .banner_logo_image{
+    display: flex;
+  }
+
+}
